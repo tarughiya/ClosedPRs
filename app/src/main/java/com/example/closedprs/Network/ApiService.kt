@@ -5,6 +5,6 @@ import retrofit2.http.GET
 
 interface ApiService {
 
-    @GET("repos/")
+    @GET("repos/tarughiya/ClosedPRs/pulls?state=closed")
     suspend fun getPosts(): List<Post>
 }

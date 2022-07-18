@@ -6,8 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.closedprs.R
 import com.example.closedprs.Model.Post
+import com.example.closedprs.R
 import kotlinx.android.synthetic.main.item_list.view.*
 
 class PostAdapter(var context: Context, var Post: ArrayList<Post>) :
@@ -40,10 +40,10 @@ class PostAdapter(var context: Context, var Post: ArrayList<Post>) :
 
 
         fun bind(Post: Post) {
-            title.text = "Title:".plus(Post.title)
-            created_date.text = Post.created_date
-            closed_date.text = Post.closed_date
-            username.text = Post.user.name
+            title.text = context.getString(R.string.pr_title).plus(" ").plus(Post.title)
+            created_date.text = (" ").plus(Post.created_date)
+            closed_date.text = (" ").plus(Post.closed_date)
+            username.text = (" ").plus(Post.user.name)
             Glide.with(context)
                 .load(Post.user.avatar_url)
                 .into(imageView)
