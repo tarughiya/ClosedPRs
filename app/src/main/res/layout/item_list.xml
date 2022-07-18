@@ -29,8 +29,7 @@
                 android:layout_gravity="left"
                 android:gravity="center_vertical"
                 android:text="@string/pr_title"
-                android:textColor="@color/colorPrimaryDark"/>
-
+                android:textColor="@color/colorPrimaryDark" />
 
         </LinearLayout>
 
@@ -45,7 +44,6 @@
             android:layout_weight="3.4"
             android:orientation="horizontal">
 
-
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="0dp"
@@ -54,7 +52,6 @@
                 android:layout_weight="1"
                 android:scaleType="fitCenter"
                 android:src="@mipmap/ic_launcher" />
-
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -65,11 +62,9 @@
                 android:orientation="vertical"
                 android:weightSum="2">
 
-
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-
                     android:orientation="horizontal">
 
                     <TextView
@@ -82,16 +77,13 @@
                         android:id="@+id/user"
                         style="@style/Text"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-
-                        />
+                        android:layout_height="wrap_content" />
 
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-
                     android:orientation="horizontal">
 
                     <TextView
@@ -104,9 +96,7 @@
                         android:id="@+id/created_date"
                         style="@style/Text"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-
-                        />
+                        android:layout_height="wrap_content" />
 
 
                 </LinearLayout>
@@ -127,19 +117,10 @@
                         android:id="@+id/closed_date"
                         style="@style/Text"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-
-                        />
+                        android:layout_height="wrap_content" />
 
                 </LinearLayout>
-
-
             </LinearLayout>
-
-
         </LinearLayout>
-
-
     </LinearLayout>
-
 </androidx.cardview.widget.CardView>
