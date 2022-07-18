@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ClosedPRs</string>
+    <string name="error_text">An error occurred while loading Data.</string>
+    <string name="created_date">Created Date: </string>
+    <string name="closed_date">Closed Date: </string>
+    <string name="username">Username: </string>
+    <string name="empty_list_error">There are no pull requests that are closed for now. Please Come back later</string>
+</resources>
